@@ -16,19 +16,13 @@ import java.util.GregorianCalendar;
 public class Alumno extends Persona {
     protected String CarnetUniversitario;
     protected int Semestre;
-    
-    public Alumno(String carnetUniversitario, int semestre, String carnetIdentidad, String nombre, Calendar fechaNacimiento) {
+    String Asignaturas;
+
+    public Alumno(String CarnetUniversitario, int Semestre, String Asignaturas, String carnetIdentidad, String nombre, Calendar fechaNacimiento) {
         super(carnetIdentidad, nombre, fechaNacimiento);
-        this.CarnetUniversitario = carnetUniversitario;
-        this.Semestre = semestre;
-        //System.out.println("Se crea un Alumno");
-    }
-    
-    public Alumno(String carnetUniversitario, int semestre) {
-        super();
-        this.CarnetUniversitario = carnetUniversitario;
-        this.Semestre = semestre;
-        //System.out.println("Se crea un Alumno");
+        this.CarnetUniversitario = CarnetUniversitario;
+        this.Semestre = Semestre;
+        this.Asignaturas = Asignaturas;
     }
     
     public String getCarnetUniversitario() {
@@ -47,14 +41,25 @@ public class Alumno extends Persona {
         this.Semestre = semestre;
     }
 
+    public String getAsignaturas() {
+        return Asignaturas;
+    }
+
+    public void setAsignaturas(String Asignaturas) {
+        this.Asignaturas = Asignaturas;
+    }
+    
+
     @Override
     public String toString() {
         return "Alumno{" 
-                + "Id=" + this.Id 
+                + ", CarnetUniversitario=" + this.CarnetUniversitario 
+                + ", Semestre=" + this.Semestre 
+                + ", Asignaturas= "+ this.Asignaturas
                 + ", CarnetIdentidad=" + this.CarnetIdentidad 
                 + ", Nombre=" + this.Nombre 
                 + ", FechaNacimiento=" + Utilitarios.getFechaCalendario(this.FechaNacimiento)
-                + ", CarnetUniversitario=" + this.CarnetUniversitario 
-                + ", Semestre=" + this.Semestre + '}';
+                 + ", Id=" + this.Id 
+                + '}';
     }
 }

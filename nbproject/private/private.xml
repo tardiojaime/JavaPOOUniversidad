@@ -3,10 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Marcelo/Documents/NetBeansProjects/POOUniversidad/src/bo/usfx/sis457/entidades/Persona.java</file>
-            <file>file:/C:/Users/Marcelo/Documents/NetBeansProjects/POOUniversidad/src/bo/usfx/sis457/POOHerenciaEjemplo.java</file>
-            <file>file:/C:/Users/Marcelo/Documents/NetBeansProjects/POOUniversidad/src/bo/usfx/sis457/entidades/Alumno.java</file>
-            <file>file:/C:/Users/Marcelo/Documents/NetBeansProjects/POOUniversidad/src/bo/usfx/sis457/entidades/Profesor.java</file>
+            <file>file:/C:/Users/MC/Documents/Sis457%20Programacion%20Avanzada/Laboratorio3.2_3.3/JavaPOOUniversidad/src/bo/usfx/sis457/entidades/Administrativo.java</file>
+            <file>file:/C:/Users/MC/Documents/Sis457%20Programacion%20Avanzada/Laboratorio3.2_3.3/JavaPOOUniversidad/src/bo/usfx/sis457/entidades/Persona.java</file>
+            <file>file:/C:/Users/MC/Documents/Sis457%20Programacion%20Avanzada/Laboratorio3.2_3.3/JavaPOOUniversidad/src/bo/usfx/sis457/entidades/Docente_Titular.java</file>
+            <file>file:/C:/Users/MC/Documents/Sis457%20Programacion%20Avanzada/Laboratorio3.2_3.3/JavaPOOUniversidad/src/bo/usfx/sis457/entidades/Alumno.java</file>
+            <file>file:/C:/Users/MC/Documents/Sis457%20Programacion%20Avanzada/Laboratorio3.2_3.3/JavaPOOUniversidad/src/bo/usfx/sis457/entidades/Docente.java</file>
+            <file>file:/C:/Users/MC/Documents/Sis457%20Programacion%20Avanzada/Laboratorio3.2_3.3/JavaPOOUniversidad/src/bo/usfx/sis457/POOHerenciaEjemplo.java</file>
+            <file>file:/C:/Users/MC/Documents/Sis457%20Programacion%20Avanzada/Laboratorio3.2_3.3/JavaPOOUniversidad/src/bo/usfx/sis457/Utilitarios.java</file>
         </group>
     </open-files>
 </project-private>
