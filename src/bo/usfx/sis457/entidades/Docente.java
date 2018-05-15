@@ -26,7 +26,6 @@ public class Docente extends Persona {
 
 
     public Docente() {
-        this.Años_de_experiencia =0;
     }
 
     public int getAños_de_experiencia() {
